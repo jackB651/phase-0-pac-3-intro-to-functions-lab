@@ -1,3 +1,10 @@
+function shout(string){
+  return string.toUpperCase();
+}
+
+function whisper(string){
+  return string.toLowerCase();
+}
 
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
@@ -19,7 +26,7 @@ describe('logShout(string)', function() {
 
     expect(spy).toHaveBeenCalledWith('HELLO');
 
-    console.log.restore();
+    console.log(shout(string));
   })
 })
 
@@ -31,7 +38,7 @@ describe('logWhisper(string)', function() {
 
     expect(spy).toHaveBeenCalledWith('hello');
 
-    console.log.restore();
+    console.log(whisper(string));
   })
 })
 
@@ -50,3 +57,17 @@ describe('sayHiToHeadphonedRoommate(string)', function() {
     );
   });
 })
+const x = "Hello";
+console.log(x);
+console.log(x.toUpperCase());
+console.log(x.toLowerCase());
+function sayHiToHeadphonedRoommate(x){
+if (x = "Let's have dinner together!"){
+console.log("I would love too!");
+}
+else if (console.log(x === x.toLowerCaseCase())){
+console.log("I can't hear you!");
+}
+else if (console.log(x === x.toUpperCase())){
+console.log("YES INDEED");
+}}
